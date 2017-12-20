@@ -65,6 +65,39 @@ nav{
 .advantages_items{
     width: 30%;         /*єлементі размещаються по 3 в ряду*/
 }
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
+    font-size:14px;
+    margin-left: 10px;
+}
+footer nav a:hover{
+    border-bottom: 2px solid white;
+
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+}
+
 /*hide all elements of menu exept HOME button for addapting MENU*/
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child){
